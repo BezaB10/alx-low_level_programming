@@ -22,6 +22,5 @@ int main(void)
 		++U;
 	}
 	putchar('\n');
-
 	return (0);
 }
