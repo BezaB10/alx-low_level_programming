@@ -25,7 +25,7 @@ while (a <= 99)
 			putchar((b / 10) + 48);
 			putchar((b % 10) + 48);
 
-			if (a != 98 || b != 98)
+			if (a != 98 || b != 99)
 			{
 				putchar(',');
 				putchar(' ');
@@ -39,4 +39,3 @@ putchar('\n');
 
 return (0);
 }
-
