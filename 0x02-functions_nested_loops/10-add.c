@@ -5,6 +5,8 @@
  *
  * @n: integer input number
  *
+ * @m: integer input number
+ *
  * Return: the result of addition of n and m
  */
 
@@ -12,7 +14,7 @@ int add(int n, int m)
 {
 	int a;
 
-	a = n+ m;
+	a = n + m;
 
 	return (a);
 }
