@@ -3,9 +3,9 @@
 /**
  * main entry poinit
  *
- * discrition prints _putchar
+ * discrition prints _putchar using putchar prototype
  *
- * return: always 0()success
+ * return: always 0 (success)
  */
 
 int main(void)
