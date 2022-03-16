@@ -33,6 +33,11 @@ void print_times_table(int n)
 				else if (z <= 99)
 				{
 					_putchar(' ');
+					_putchar((z / 10) + '0');
+					_putchar((z % 10) + '0');
+				}
+				else
+				{
 					_putchar(((z / 100) % 10) + '0');
 					_putchar(((z / 10) % 10) + '0');
 					_putchar((z % 10) + '0');
