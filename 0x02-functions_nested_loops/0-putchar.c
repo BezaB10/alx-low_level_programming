@@ -1,13 +1,12 @@
 #include "main.h"
 
 /**
- * main entry poinit
+ * main - Entry point
  *
- * discrition prints _putchar using putchar prototype
+ * Description: prints _putchar using putchar prototype
  *
- * return: always 0 (success)
+ * Return: Always 0 (Success)
  */
-
 int main(void)
 {
 	char *str = "_putchar\n";
