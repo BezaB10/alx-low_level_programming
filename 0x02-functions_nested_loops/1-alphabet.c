@@ -3,7 +3,7 @@
 /**
  * main -Entry point
  *
- * Description: print_slphabet prints lowercase alphabets
+ * Description: print_alphabet prints lowercase alphabets
  *
  * Return: void
  */
