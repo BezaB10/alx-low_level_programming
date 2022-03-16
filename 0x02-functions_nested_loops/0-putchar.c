@@ -1,18 +1,15 @@
 #include "main.h"
 
 /**
- * main -Entry point
+ * main entry point
  *
- * return: always 0 (Success)
+ * return:always 0()success
  */
 
 int main(void)
 {
-	int i;
-	char str[] = "_putchar";
-	for (i = 0; i < 8; ++i)
-		_putchar(str[i]);
-	_putchar('\n');
-
+	char *str = "_putchar\n";
+	while (*str != '\0')
+		_putchar(*str++);
 	return (0);
 }
