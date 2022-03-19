@@ -6,24 +6,24 @@
  *
  * Description: prints the first 98 Fibonacci numbers.
  *
- * NL: returns the length of string
+ * num_length: returns the length of string
  *
- * @num: operand number
+ * @n: operand number
  *
  * Return: Always 0 (Success)
  */
-int NL(int N)
+int num_length(int n)
 {
-	int L = 0;
+	int l = 0;
 
-	if (!L)
+	if (!n)
 		return (1);
-	while (N)
+	while (n)
 	{
-		N = N / 10;
-		L += 1;
+		n =n / 10;
+		l += 1;
 	}
-	return (L);
+	return (l);
 }
 
 int main(void)
@@ -35,7 +35,7 @@ int main(void)
 	{
 		if (f1o > 0)
 			printf("%lu", f1o);
-		initials = NL(mx) - 1 - NL(f1);
+		initials = num_length(mx) - 1 - num_length(f1);
 
 		while (f1o > 0 && initials > 0)
 		{
