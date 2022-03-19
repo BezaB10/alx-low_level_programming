@@ -5,7 +5,6 @@
  * for leap year
  * @month: month in number format
  * @day: day of month
- *
  * Return: days of the year
  */
 
