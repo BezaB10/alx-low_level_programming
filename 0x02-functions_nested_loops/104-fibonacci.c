@@ -25,6 +25,9 @@ int num_length(int n)
 	}
 	return (l);
 }
+/**
+ * num_length - returns the length of string
+ */
 
 int main(void)
 {
