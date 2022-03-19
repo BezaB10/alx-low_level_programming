@@ -6,7 +6,7 @@
  *
  * Description: prints the first 98 Fibonacci numbers.
  *
- * num_length: returns the length of string
+ * num_length - returns the length of string..and please betty wtf!
  *
  * @n: operand number
  *
