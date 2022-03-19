@@ -20,7 +20,7 @@ int num_length(int n)
 		return (1);
 	while (n)
 	{
-		n =n / 10;
+		n = n / 10;
 		l += 1;
 	}
 	return (l);
