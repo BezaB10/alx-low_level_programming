@@ -20,8 +20,9 @@ int numLength(int num)
 		num = num / 10;
 		length += 1;
 	}
-	return (length)
+	return (length);
 }
+
 int main(void)
 {
 	int count, initial0s;
