@@ -4,6 +4,8 @@
 /**
  * main - Entry point
  *
+ * Description: prints the first 98 Fibonacci numbers.
+ *
  * numLength - returns the length of string
  *
  * @num: operand number
@@ -13,6 +15,7 @@
 int numLength(int num)
 {
 	int length = 0;
+
 	if (!num)
 		return (1);
 	while (num)
