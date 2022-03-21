@@ -6,6 +6,7 @@
  * to by `dest`
  * @dest: pointer to char
  * @src: pointer to char
+ *
  * Return: pointer to @dest
  */
 
