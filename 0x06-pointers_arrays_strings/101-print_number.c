@@ -5,6 +5,7 @@
  * @n: integer value.
  * Return: nothing
  */
+
 void print_number(int n)
 {
 	unsigned int x = n;
