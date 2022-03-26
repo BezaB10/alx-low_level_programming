@@ -8,16 +8,19 @@
  * Return: nothing
  */
 
-int _strcmp(char *s1, char *s2)
+void reverse_array(int *a, int n)
 {
-	while (*s1 == *s2)
+	int temp, s, e;
+
+	s = 0;
+	e = n -1;
+
+	while (s < e)
 	{
-		if (*s1 == '\0')
-		{
-			return (0);
-		}
-		s1++;
-		s2++;
+		temp = a[s];
+		a[s] = a[e];
+		a[e] = temp;
+		s++;
+		e--;
 	}
-	return (*s1 - *s2);
 }
