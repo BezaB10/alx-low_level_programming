@@ -1,9 +1,9 @@
 #ifndef _S_LINK_LISTS_
 #define _S_LINK_LISTS_
-#include <stddef.h>
-#include <stdio.h> 
 #include <stdlib.h>
 #include <string.h>
+#include <stddef.h>
+#include <stdio.h>
 
 /**
  * struct listint_s - singly linked list
