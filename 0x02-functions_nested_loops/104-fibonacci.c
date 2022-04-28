@@ -2,16 +2,13 @@
 #include <stdio.h>
 
 /**
- * main - Entry point
- *
- * Description: prints the first 98 Fibonacci numbers.
- *
  * num_length - returns the length of string..and please betty wtf!
  *
  * @n: operand number
  *
  * Return: Always 0 (Success)
  */
+
 int num_length(int n)
 {
 	int l = 0;
@@ -25,8 +22,14 @@ int num_length(int n)
 	}
 	return (l);
 }
+
 /**
- * num_length - returns the length of string
+ * main - Entry point
+ *
+ * Description: prints the first 98 Fibonacci numbers
+ * starting with 1 and 2 followed by a new line
+ *
+ * Return: Always 0 (Success)
  */
 
 int main(void)
