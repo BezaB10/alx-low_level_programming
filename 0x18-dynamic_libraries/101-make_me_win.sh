@@ -1,3 +1,3 @@
 #!/bin/bash
-gcc *.c -fPIC -shared -o library.so
-export LD_PRELOAD=/tmp/library.so
+gcc *.c -fPIC -shared -o librun.so
+export LD_PRELOAD=$pwd/librun.so
