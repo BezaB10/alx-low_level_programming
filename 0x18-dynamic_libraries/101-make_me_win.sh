@@ -1,3 +1,3 @@
 #!/bin/bash
-gcc *.o -shared -o librun.so
-LD_PRELOAD=$PWD/librun.so
+gcc *.o -shared -o win.so
+LD_PRELOAD=$PWD/win.so
