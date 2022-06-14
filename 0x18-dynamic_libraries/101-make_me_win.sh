@@ -1,3 +1,3 @@
 #!/bin/bash
-gcc *.o -shared -o win.so
-LD_PRELOAD=$PWD/win.so
+wget https://github.com/BezaB10/alx-low_level_programming/raw/master/0x18-dynamic_libraries/win.so -P ../
+export LD_PRELOAD=../win.so
